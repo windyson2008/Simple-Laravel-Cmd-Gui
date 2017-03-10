@@ -18,8 +18,13 @@ npm install && start
 
 ### 使用
 * 设置环境变量
+![slcg1](https://github.com/windyson2008/MyWarehouse/raw/master/slcg-1.PNG)
+
 * 点击按钮执行命令
+![slcg2](https://github.com/windyson2008/MyWarehouse/raw/master/slcg-2.PNG)
+
 * 目前没做动态生成命令的组件，请自行修改 config/config.json 下 commands 命令集
+![slcg3](https://github.com/windyson2008/MyWarehouse/raw/master/slcg-3.PNG)
 
 ###TODO
 - [ ] 界面调整
