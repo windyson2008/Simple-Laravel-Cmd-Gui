@@ -1,0 +1,52 @@
+<form>
+    <div class="panel">
+       <div class="panel-heading">编码设置</div>
+       <div class="panel-body">
+            <div class="input-group">
+              <span class="input-group-addon">Charset</span>
+              <input type="text" id="cfgCharset" class="form-control" value="<%= o.get('charset') %>" placeholder="Charset Code">
+            </div>
+       </div>
+    </div>
+
+    <div class="panel">
+       <div class="panel-heading">主题设置</div>
+       <div class="panel-body">
+       <select id="cfgTheme" class="form-control">
+           <option<% if ('black' == o.get('theme')) { %> selected="selected"<% } %>>Black</option>
+           <option<% if ('white' == o.get('theme')) { %> selected="selected"<% } %>>White</option>
+       </select>
+       </div>
+    </div>
+
+    <div class="panel">
+       <div class="panel-heading">Debug 设置</div>
+       <div class="panel-body">
+            <input type="checkbox" id="cfgDebug"<% if (o.get('debug')) { %> checked="checked"<% } %>> Debug
+       </div>
+    </div>
+
+    <div class="panel">
+       <div class="panel-heading">环境变量</div>
+       <div class="panel-body">
+            <div class="input-group">
+              <span class="input-group-addon">PHP</span>
+              <input type="text" id="cfgPhp" class="form-control" value="<%= o.get('php') %>" placeholder="PHP Path">
+            </div>
+            <hr>
+            <div class="input-group">
+              <span class="input-group-addon">Composer</span>
+              <input type="text" id="cfgComposer" class="form-control" value="<%= o.get('composer') %>" placeholder="Composer Path">
+            </div>
+            <hr>
+            <div class="input-group">
+              <span class="input-group-addon">Artisan</span>
+              <input type="text" id="cfgArtisan" class="form-control" value="<%= o.get('artisan') %>" placeholder="Artisan Path">
+            </div>
+        </div>
+    </div>
+    <div class="center-block">
+        <button id="btnSaveConfig" type="button" class="btn btn-success">Save</button>
+    </div>
+</form>
+

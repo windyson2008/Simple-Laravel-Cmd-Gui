@@ -1,0 +1,10 @@
+<div class="row">
+<% if (o.get('commands').length) { %>
+    <% o.get('commands').forEach(function(command){ %>
+        <div style="text-align:center">
+            <button class="btn cmd" data-id="<%= command.id %>" class="btn"><%= command.title %></button>
+        </div>
+        <hr>
+    <% }) %>
+<% } %>
+</div>

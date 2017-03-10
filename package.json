@@ -1,0 +1,27 @@
+{
+  "name": "simple-laravel-cmd-gui",
+  "productName": "slcg",
+  "version": "0.0.1",
+  "electronVersion": "1.6.2",
+  "description": "Simple Lavael Command GUI",
+  "author": "windyson2008",
+  "license": "MIT",
+  "main": "main.js",
+  "scripts": {
+    "start": "./node_modules/.bin/electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/windyson2008/simple-laravel-cmd-gui.git"
+  },
+  "devDependencies": {
+    "electron": "^1.6.2"
+  },
+  "dependencies": {
+    "ejs": "^2.5.6",
+    "iconv-lite": "^0.4.15",
+    "jquery": "^3.1.0",
+    "nconf": "^0.8.4",
+    "zui": "^1.5.0"
+  }
+}

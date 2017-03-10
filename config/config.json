@@ -1,0 +1,38 @@
+{
+  "charset": "utf8",
+  "theme": "white",
+  "debug": true,
+  "php": "D:\\opt\\xampp\\php\\php.exe",
+  "composer": "composer.bat",
+  "artisan": "D:\\src\\maff-exp\\artisan",
+  "commands": [
+    {
+      "id": 1,
+      "title": "view:clear",
+      "type": "single",
+      "content": "view:clear",
+      "description": "clear cached view files"
+    },
+    {
+      "id": 2,
+      "title": "config:clear",
+      "type": "single",
+      "content": "config:clear",
+      "description": "clear cached config"
+    },
+    {
+      "id": 3,
+      "title": "config:cache",
+      "type": "single",
+      "content": "config:cache",
+      "description": "cache config file"
+    },
+    {
+      "id": 4,
+      "title": "cache:clear",
+      "type": "single",
+      "content": "cache:clear",
+      "description": "clear cache file"
+    }
+  ]
+}
