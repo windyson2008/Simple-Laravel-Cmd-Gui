@@ -1,7 +1,7 @@
 {
   "charset": "utf8",
   "theme": "white",
-  "debug": true,
+  "debug": false,
   "php": "D:\\opt\\xampp\\php\\php.exe",
   "composer": "composer.bat",
   "artisan": "D:\\src\\maff-exp\\artisan",
