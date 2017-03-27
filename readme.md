@@ -1,4 +1,4 @@
-##Simple Lavael Cmd Gui
+##Simple Laravel Cmd Gui
 公司电脑没有权限设置环境变量，每次都 `Set Path` 很烦
 要么就得写一大堆 `bat` 文件
 正好学习 `Node` 桌面开发，练手练手。
