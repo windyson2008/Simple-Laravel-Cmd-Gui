@@ -1,4 +1,4 @@
-##Simple Laravel Cmd Gui
+## Simple Laravel Cmd Gui
 公司电脑没有权限设置环境变量，每次都 `Set Path` 很烦
 要么就得写一大堆 `bat` 文件
 正好学习 `Node` 桌面开发，练手练手。
@@ -26,7 +26,7 @@ npm install && start
 * 目前没做动态生成命令的组件，请自行修改 config/config.json 下 commands 命令集
 ![slcg3](https://github.com/windyson2008/MyWarehouse/raw/master/slcg-3.PNG)
 
-###TODO
+### TODO
 - [ ] 界面调整
 - [ ] 控件化
 - [ ] 通用 Windows 工具
